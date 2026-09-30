@@ -20,10 +20,10 @@
     ],
     "require_cue": true,
     "data_track": {
-      "size": 745290000,
-      "md5": "2448e45804b50052d97dc70af36e4f01",
-      "sha1": "198a7e0a858b719f227e3b046c3e6609fdeac7de",
-      "crc32": "d49f9c96"
+      "size": 231888384,
+      "md5": "133bc651431c396b1d56bcfaf466bd09",
+      "sha1": "0f1491eccf460ad5f9d564cb658927db55ccd4e9",
+      "crc32": "fb0c5c9e"
     },
     "disc_fp": "8c37c89509c33555960627fdc83b0f9298d5eacbb7044e0a74c99ccf95afc5f1"
   },

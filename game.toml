@@ -7,6 +7,9 @@ id = "SLUS-00433"
 region = "USA"
 players = 2
 exe = "disc/SLUS_004.33"
+disc = "disc/Fighting Force (USA) (Rev 2).cue"
+discs = ["disc/Fighting Force (USA) (Rev 2).cue"]
+disc_serials = ["SLUS-00433"]
 load_address = "0x801F8000"
 entry_pc = "0x801FBF00"
 text_size = "0x00005800"
@@ -15,21 +18,25 @@ stack_base = "0x801FFFF0"
 # Digests are for data Track 01 (first BINARY FILE / TRACK 01).
 [prepare_disc]
 out_dir = "disc"
-bin_name = "disc1.bin"
-cue_name = "disc1.cue"
+bin_name = "Fighting Force (USA) (Rev 2) (Track 01).bin"
+cue_name = "Fighting Force (USA) (Rev 2).cue"
 boot_exe = "SLUS_004.33"
-known_sizes = [745290000]
+known_sizes = [231888384, 745290000]
 known_md5 = [
+  "133bc651431c396b1d56bcfaf466bd09",
   "2448e45804b50052d97dc70af36e4f01",
 ]
 known_sha1 = [
+  "0f1491eccf460ad5f9d564cb658927db55ccd4e9",
   "198a7e0a858b719f227e3b046c3e6609fdeac7de",
 ]
 known_crc32 = [
+  "fb0c5c9e",
   "d49f9c96",
 ]
 
 [recompiler]
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
